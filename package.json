@@ -1,14 +1,19 @@
 {
-  "author": "Craig Condon",
-  "name": "chowder",
-  "version": "0.0.0",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/spiceapps/chowder.git"
-  },
-  "engines": {
-    "node": "~0.4.12"
-  },
-  "dependencies": {},
-  "devDependencies": {}
+    "author": "Craig Condon",
+    "name": "chowder",
+    "version": "0.0.0",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/spiceapps/chowder.git"
+    },
+	"dependencies": {
+		"ini":"*"
+	},
+    "devDependencies": {
+		"fileset":"*",
+		"findit":"*",
+		"Structr":"*",
+		"ini":"git+https://github.com/spiceapps/ini.git"
+	},
+	"main": "./lib/index.js"
 }
