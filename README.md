@@ -2,6 +2,8 @@
 
 - recursivley include other configuration files
 - scan directory for configuration files
+
+## To Do
 - extend other settings
 - reference other variables in config
 
@@ -9,15 +11,7 @@
 
 ```ini
 
-[vars]
-SOME_GLOBAL_VAR=hello world!
-
 [some-setting]
-name=vars:SOME_GLOBAL_VAR
-
-
-[another-setting]
-$extends=some-setting
 
 
 [include]
