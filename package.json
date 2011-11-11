@@ -7,13 +7,13 @@
         "url": "git://github.com/spiceapps/chowder.git"
     },
 	"dependencies": {
-		"ini":"*"
+		"ini":"*",
+		"fglob":"*",
+		"findit":"*",
+		"structr":"*",
+		"ini":"git+https://github.com/spiceapps/ini.git"
 	},
     "devDependencies": {
-		"fileset":"*",
-		"findit":"*",
-		"Structr":"*",
-		"ini":"git+https://github.com/spiceapps/ini.git"
 	},
 	"main": "./lib/index.js"
 }
