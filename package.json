@@ -1,16 +1,21 @@
 {
   "author": "Craig Condon",
   "name": "chowder",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
     "url": "git://github.com/crcn/chowder.git"
   },
   "dependencies": {
-    "ini": "git+https://github.com/crcn/ini.git",
-    "fglob": "*",
-    "findit": "*",
-    "structr": "*"
+    "dref": "0.0.x",
+    "iniparser": "1.0.x",
+    "node-ini": "1.0.x",
+    "fileset": "0.0.x",
+    "async": "0.1.x",
+    "fglob": "0.0.x",
+    "ini": "1.0.x",
+    "structr": "0.2.x",
+    "findit": "0.1.x"
   },
   "devDependencies": {},
   "main": "./lib/index.js"
