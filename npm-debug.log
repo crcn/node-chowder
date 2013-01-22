@@ -1,0 +1,280 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish', '--force' ]
+2 info using npm@1.1.66
+3 info using node@v0.6.17
+4 verbose publish [ '.' ]
+5 verbose read json /Users/craig/Developer/Public/chowder/package.json
+6 verbose cache add [ '.', null ]
+7 silly cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { pathname: '.', path: '.', href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /Users/craig/.npm/3a52ce78-.lock
+11 verbose read json package.json
+12 verbose tar pack [ '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-86522/1358896490654-0.8584836078807712/tmp.tgz',
+12 verbose tar pack   '.' ]
+13 verbose tarball /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-86522/1358896490654-0.8584836078807712/tmp.tgz
+14 verbose folder .
+15 info prepublish chowder@0.0.1
+16 silly lockFile adeb1c64-90654-0-8584836078807712-tmp-tgz /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-86522/1358896490654-0.8584836078807712/tmp.tgz
+17 verbose lock /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-86522/1358896490654-0.8584836078807712/tmp.tgz /Users/craig/.npm/adeb1c64-90654-0-8584836078807712-tmp-tgz.lock
+18 silly lockFile adeb1c64-90654-0-8584836078807712-tmp-tgz /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-86522/1358896490654-0.8584836078807712/tmp.tgz
+19 verbose tar unpack /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-86522/1358896490654-0.8584836078807712/tmp.tgz
+20 silly lockFile 686d607e-90654-0-8584836078807712-package /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-86522/1358896490654-0.8584836078807712/package
+21 verbose lock /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-86522/1358896490654-0.8584836078807712/package /Users/craig/.npm/686d607e-90654-0-8584836078807712-package.lock
+22 silly gunzTarPerm modes [ '755', '644' ]
+23 silly gunzTarPerm extractEntry package.json
+24 silly gunzTarPerm extractEntry README.md
+25 silly gunzTarPerm extractEntry .cupboard
+26 silly gunzTarPerm extractEntry lib/index.js
+27 silly gunzTarPerm extractEntry lib/loaders/index.js
+28 silly gunzTarPerm extractEntry lib/loaders/ini.js
+29 silly gunzTarPerm extractEntry tests/test.js
+30 silly gunzTarPerm extractEntry tests/test.conf
+31 silly gunzTarPerm extractEntry tests/test2.conf
+32 verbose read json /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-86522/1358896490654-0.8584836078807712/package/package.json
+33 silly lockFile 686d607e-90654-0-8584836078807712-package /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-86522/1358896490654-0.8584836078807712/package
+34 verbose from cache /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-86522/1358896490654-0.8584836078807712/package/package.json
+35 verbose tar pack [ '/Users/craig/.npm/chowder/0.0.1/package.tgz',
+35 verbose tar pack   '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-86522/1358896490654-0.8584836078807712/package' ]
+36 verbose tarball /Users/craig/.npm/chowder/0.0.1/package.tgz
+37 verbose folder /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-86522/1358896490654-0.8584836078807712/package
+38 silly lockFile fb054f37-ig-npm-chowder-0-0-1-package-tgz /Users/craig/.npm/chowder/0.0.1/package.tgz
+39 verbose lock /Users/craig/.npm/chowder/0.0.1/package.tgz /Users/craig/.npm/fb054f37-ig-npm-chowder-0-0-1-package-tgz.lock
+40 silly lockFile fb054f37-ig-npm-chowder-0-0-1-package-tgz /Users/craig/.npm/chowder/0.0.1/package.tgz
+41 silly lockFile f9585a79--craig-npm-chowder-0-0-1-package /Users/craig/.npm/chowder/0.0.1/package
+42 verbose lock /Users/craig/.npm/chowder/0.0.1/package /Users/craig/.npm/f9585a79--craig-npm-chowder-0-0-1-package.lock
+43 silly lockFile f9585a79--craig-npm-chowder-0-0-1-package /Users/craig/.npm/chowder/0.0.1/package
+44 verbose tar unpack /Users/craig/.npm/chowder/0.0.1/package.tgz
+45 silly lockFile f9585a79--craig-npm-chowder-0-0-1-package /Users/craig/.npm/chowder/0.0.1/package
+46 verbose lock /Users/craig/.npm/chowder/0.0.1/package /Users/craig/.npm/f9585a79--craig-npm-chowder-0-0-1-package.lock
+47 silly gunzTarPerm modes [ '755', '644' ]
+48 silly gunzTarPerm extractEntry package.json
+49 silly gunzTarPerm extractEntry README.md
+50 silly gunzTarPerm extractEntry .cupboard
+51 silly gunzTarPerm extractEntry lib/index.js
+52 silly gunzTarPerm extractEntry lib/loaders/index.js
+53 silly gunzTarPerm extractEntry lib/loaders/ini.js
+54 silly gunzTarPerm extractEntry tests/test.js
+55 silly gunzTarPerm extractEntry tests/test.conf
+56 silly gunzTarPerm extractEntry tests/test2.conf
+57 verbose read json /Users/craig/.npm/chowder/0.0.1/package/package.json
+58 silly lockFile f9585a79--craig-npm-chowder-0-0-1-package /Users/craig/.npm/chowder/0.0.1/package
+59 silly shasum updated bytes 1892
+60 info shasum 7fa09f3c432660788224076aeefb7fb6f6f78b19
+60 info shasum /Users/craig/.npm/chowder/0.0.1/package.tgz
+61 verbose from cache /Users/craig/.npm/chowder/0.0.1/package/package.json
+62 verbose chmod /Users/craig/.npm/chowder/0.0.1/package.tgz 644
+63 verbose chown /Users/craig/.npm/chowder/0.0.1/package.tgz [ 501, 20 ]
+64 silly lockFile 3a52ce78- .
+65 silly publish { author: { name: 'Craig Condon' },
+65 silly publish   name: 'chowder',
+65 silly publish   version: '0.0.1',
+65 silly publish   repository: { type: 'git', url: 'git://github.com/crcn/chowder.git' },
+65 silly publish   dependencies:
+65 silly publish    { dref: '0.0.x',
+65 silly publish      iniparser: '1.0.x',
+65 silly publish      'node-ini': '1.0.x',
+65 silly publish      async: '0.1.x',
+65 silly publish      fglob: '0.0.x',
+65 silly publish      ini: '1.0.x',
+65 silly publish      structr: '0.2.x',
+65 silly publish      findit: '0.1.x' },
+65 silly publish   devDependencies: {},
+65 silly publish   main: './lib/index.js',
+65 silly publish   readme: '## Features\n\n- recursivley include other configuration files\n- scan directory for configuration files\n\n## To Do\n- extend other settings\n- reference other variables in config\n\n## Example\n\n```ini\n\n[some-setting]\n\n\n[include]\nfiles=/path/to/configs/*.conf /another/path/*.conf\n\n```\n\n\n\n',
+65 silly publish   readmeFilename: 'README.md',
+65 silly publish   _id: 'chowder@0.0.1',
+65 silly publish   description: '- recursivley include other configuration files - scan directory for configuration files',
+65 silly publish   dist: { shasum: '7fa09f3c432660788224076aeefb7fb6f6f78b19' } }
+66 verbose url raw chowder
+67 verbose url resolving [ 'https://registry.npmjs.org/', './chowder' ]
+68 verbose url resolved https://registry.npmjs.org/chowder
+69 info trying registry request attempt 1 at 15:14:50
+70 http PUT https://registry.npmjs.org/chowder
+71 http 409 https://registry.npmjs.org/chowder
+72 verbose url raw chowder
+73 verbose url resolving [ 'https://registry.npmjs.org/', './chowder' ]
+74 verbose url resolved https://registry.npmjs.org/chowder
+75 info trying registry request attempt 1 at 15:14:51
+76 http GET https://registry.npmjs.org/chowder
+77 http 200 https://registry.npmjs.org/chowder
+78 warn publish Forced publish over chowder@0.0.1
+79 verbose url raw chowder
+80 verbose url resolving [ 'https://registry.npmjs.org/', './chowder' ]
+81 verbose url resolved https://registry.npmjs.org/chowder
+82 info trying registry request attempt 1 at 15:14:52
+83 verbose etag "80A00ACRTDY38PQV1690553IU"
+84 http GET https://registry.npmjs.org/chowder
+85 http 304 https://registry.npmjs.org/chowder
+86 silly registry.get cb [ 304,
+86 silly registry.get   { server: 'CouchDB/1.2.1 (Erlang OTP/R15B)',
+86 silly registry.get     etag: '"80A00ACRTDY38PQV1690553IU"',
+86 silly registry.get     date: 'Tue, 22 Jan 2013 23:13:18 GMT',
+86 silly registry.get     'content-length': '0' } ]
+87 verbose etag chowder from cache
+88 verbose unpublish removing attachments { shasum: 'c7fd620fbfd70799397f3bb8a207aee94b37447d',
+88 verbose unpublish   tarball: 'http://registry.npmjs.org/chowder/-/chowder-0.0.1.tgz' }
+89 verbose url raw chowder/-rev/25-8d492eef45c502478421517e7416064b
+90 verbose url resolving [ 'https://registry.npmjs.org/',
+90 verbose url resolving   './chowder/-rev/25-8d492eef45c502478421517e7416064b' ]
+91 verbose url resolved https://registry.npmjs.org/chowder/-rev/25-8d492eef45c502478421517e7416064b
+92 info trying registry request attempt 1 at 15:14:53
+93 http PUT https://registry.npmjs.org/chowder/-rev/25-8d492eef45c502478421517e7416064b
+94 http 201 https://registry.npmjs.org/chowder/-rev/25-8d492eef45c502478421517e7416064b
+95 verbose url raw chowder
+96 verbose url resolving [ 'https://registry.npmjs.org/', './chowder' ]
+97 verbose url resolved https://registry.npmjs.org/chowder
+98 info trying registry request attempt 1 at 15:14:55
+99 http GET https://registry.npmjs.org/chowder
+100 http 200 https://registry.npmjs.org/chowder
+101 silly registry.get cb [ 200,
+101 silly registry.get   { vary: 'Accept',
+101 silly registry.get     server: 'CouchDB/1.2.1 (Erlang OTP/R15B)',
+101 silly registry.get     etag: '"AYLTGSN8WCFPS7TDYDY89DA5Q"',
+101 silly registry.get     date: 'Tue, 22 Jan 2013 23:13:21 GMT',
+101 silly registry.get     'content-type': 'application/json',
+101 silly registry.get     'content-length': '1483' } ]
+102 info detach /chowder/-/chowder-0.0.1.tgz/-rev/26-1bef208648789e78d11be71f453620e8
+103 verbose url raw /chowder/-/chowder-0.0.1.tgz/-rev/26-1bef208648789e78d11be71f453620e8
+104 verbose url resolving [ 'https://registry.npmjs.org/',
+104 verbose url resolving   './chowder/-/chowder-0.0.1.tgz/-rev/26-1bef208648789e78d11be71f453620e8' ]
+105 verbose url resolved https://registry.npmjs.org/chowder/-/chowder-0.0.1.tgz/-rev/26-1bef208648789e78d11be71f453620e8
+106 info trying registry request attempt 1 at 15:14:55
+107 http DELETE https://registry.npmjs.org/chowder/-/chowder-0.0.1.tgz/-rev/26-1bef208648789e78d11be71f453620e8
+108 http 200 https://registry.npmjs.org/chowder/-/chowder-0.0.1.tgz/-rev/26-1bef208648789e78d11be71f453620e8
+109 verbose publish [ '.' ]
+110 verbose from cache /Users/craig/Developer/Public/chowder/package.json
+111 verbose cache add [ '.', null ]
+112 silly cache add name=undefined spec="." args=[".",null]
+113 verbose parsed url { pathname: '.', path: '.', href: '.' }
+114 silly lockFile 3a52ce78- .
+115 verbose lock . /Users/craig/.npm/3a52ce78-.lock
+116 verbose from cache package.json
+117 verbose tar pack [ '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-86522/1358896498196-0.648654725169763/tmp.tgz',
+117 verbose tar pack   '.' ]
+118 verbose tarball /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-86522/1358896498196-0.648654725169763/tmp.tgz
+119 verbose folder .
+120 info prepublish chowder@0.0.1
+121 silly lockFile 6c56207d-498196-0-648654725169763-tmp-tgz /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-86522/1358896498196-0.648654725169763/tmp.tgz
+122 verbose lock /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-86522/1358896498196-0.648654725169763/tmp.tgz /Users/craig/.npm/6c56207d-498196-0-648654725169763-tmp-tgz.lock
+123 silly lockFile 6c56207d-498196-0-648654725169763-tmp-tgz /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-86522/1358896498196-0.648654725169763/tmp.tgz
+124 verbose tar unpack /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-86522/1358896498196-0.648654725169763/tmp.tgz
+125 silly lockFile a5642146-498196-0-648654725169763-package /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-86522/1358896498196-0.648654725169763/package
+126 verbose lock /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-86522/1358896498196-0.648654725169763/package /Users/craig/.npm/a5642146-498196-0-648654725169763-package.lock
+127 silly gunzTarPerm modes [ '755', '644' ]
+128 silly gunzTarPerm extractEntry package.json
+129 silly gunzTarPerm extractEntry README.md
+130 silly gunzTarPerm extractEntry .cupboard
+131 silly gunzTarPerm extractEntry lib/index.js
+132 silly gunzTarPerm extractEntry lib/loaders/index.js
+133 silly gunzTarPerm extractEntry lib/loaders/ini.js
+134 silly gunzTarPerm extractEntry tests/test.js
+135 silly gunzTarPerm extractEntry tests/test.conf
+136 silly gunzTarPerm extractEntry tests/test2.conf
+137 verbose read json /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-86522/1358896498196-0.648654725169763/package/package.json
+138 silly lockFile a5642146-498196-0-648654725169763-package /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-86522/1358896498196-0.648654725169763/package
+139 verbose from cache /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-86522/1358896498196-0.648654725169763/package/package.json
+140 verbose tar pack [ '/Users/craig/.npm/chowder/0.0.1/package.tgz',
+140 verbose tar pack   '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-86522/1358896498196-0.648654725169763/package' ]
+141 verbose tarball /Users/craig/.npm/chowder/0.0.1/package.tgz
+142 verbose folder /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-86522/1358896498196-0.648654725169763/package
+143 silly lockFile fb054f37-ig-npm-chowder-0-0-1-package-tgz /Users/craig/.npm/chowder/0.0.1/package.tgz
+144 verbose lock /Users/craig/.npm/chowder/0.0.1/package.tgz /Users/craig/.npm/fb054f37-ig-npm-chowder-0-0-1-package-tgz.lock
+145 silly lockFile fb054f37-ig-npm-chowder-0-0-1-package-tgz /Users/craig/.npm/chowder/0.0.1/package.tgz
+146 silly lockFile f9585a79--craig-npm-chowder-0-0-1-package /Users/craig/.npm/chowder/0.0.1/package
+147 verbose lock /Users/craig/.npm/chowder/0.0.1/package /Users/craig/.npm/f9585a79--craig-npm-chowder-0-0-1-package.lock
+148 silly lockFile f9585a79--craig-npm-chowder-0-0-1-package /Users/craig/.npm/chowder/0.0.1/package
+149 verbose tar unpack /Users/craig/.npm/chowder/0.0.1/package.tgz
+150 silly lockFile f9585a79--craig-npm-chowder-0-0-1-package /Users/craig/.npm/chowder/0.0.1/package
+151 verbose lock /Users/craig/.npm/chowder/0.0.1/package /Users/craig/.npm/f9585a79--craig-npm-chowder-0-0-1-package.lock
+152 silly gunzTarPerm modes [ '755', '644' ]
+153 silly gunzTarPerm extractEntry package.json
+154 silly gunzTarPerm extractEntry README.md
+155 silly gunzTarPerm extractEntry .cupboard
+156 silly gunzTarPerm extractEntry lib/index.js
+157 silly gunzTarPerm extractEntry lib/loaders/index.js
+158 silly gunzTarPerm extractEntry lib/loaders/ini.js
+159 silly gunzTarPerm extractEntry tests/test.js
+160 silly gunzTarPerm extractEntry tests/test.conf
+161 silly gunzTarPerm extractEntry tests/test2.conf
+162 verbose from cache /Users/craig/.npm/chowder/0.0.1/package/package.json
+163 silly lockFile f9585a79--craig-npm-chowder-0-0-1-package /Users/craig/.npm/chowder/0.0.1/package
+164 silly shasum updated bytes 1892
+165 info shasum 7fa09f3c432660788224076aeefb7fb6f6f78b19
+165 info shasum /Users/craig/.npm/chowder/0.0.1/package.tgz
+166 verbose from cache /Users/craig/.npm/chowder/0.0.1/package/package.json
+167 verbose chmod /Users/craig/.npm/chowder/0.0.1/package.tgz 644
+168 verbose chown /Users/craig/.npm/chowder/0.0.1/package.tgz [ 501, 20 ]
+169 silly lockFile 3a52ce78- .
+170 silly publish { author: { name: 'Craig Condon' },
+170 silly publish   name: 'chowder',
+170 silly publish   version: '0.0.1',
+170 silly publish   repository: { type: 'git', url: 'git://github.com/crcn/chowder.git' },
+170 silly publish   dependencies:
+170 silly publish    { dref: '0.0.x',
+170 silly publish      iniparser: '1.0.x',
+170 silly publish      'node-ini': '1.0.x',
+170 silly publish      async: '0.1.x',
+170 silly publish      fglob: '0.0.x',
+170 silly publish      ini: '1.0.x',
+170 silly publish      structr: '0.2.x',
+170 silly publish      findit: '0.1.x' },
+170 silly publish   devDependencies: {},
+170 silly publish   main: './lib/index.js',
+170 silly publish   readme: '## Features\n\n- recursivley include other configuration files\n- scan directory for configuration files\n\n## To Do\n- extend other settings\n- reference other variables in config\n\n## Example\n\n```ini\n\n[some-setting]\n\n\n[include]\nfiles=/path/to/configs/*.conf /another/path/*.conf\n\n```\n\n\n\n',
+170 silly publish   readmeFilename: 'README.md',
+170 silly publish   _id: 'chowder@0.0.1',
+170 silly publish   description: '- recursivley include other configuration files - scan directory for configuration files',
+170 silly publish   dist:
+170 silly publish    { shasum: '7fa09f3c432660788224076aeefb7fb6f6f78b19',
+170 silly publish      tarball: 'http://registry.npmjs.org/chowder/-/chowder-0.0.1.tgz' },
+170 silly publish   _npmVersion: '1.1.66',
+170 silly publish   _npmUser: { name: 'architectd', email: 'craig.j.condon@gmail.com' } }
+171 verbose url raw chowder
+172 verbose url resolving [ 'https://registry.npmjs.org/', './chowder' ]
+173 verbose url resolved https://registry.npmjs.org/chowder
+174 info trying registry request attempt 1 at 15:14:58
+175 http PUT https://registry.npmjs.org/chowder
+176 http 409 https://registry.npmjs.org/chowder
+177 verbose url raw chowder
+178 verbose url resolving [ 'https://registry.npmjs.org/', './chowder' ]
+179 verbose url resolved https://registry.npmjs.org/chowder
+180 info trying registry request attempt 1 at 15:14:59
+181 http GET https://registry.npmjs.org/chowder
+182 http 200 https://registry.npmjs.org/chowder
+183 verbose url raw chowder/0.0.1/-tag/latest
+184 verbose url resolving [ 'https://registry.npmjs.org/', './chowder/0.0.1/-tag/latest' ]
+185 verbose url resolved https://registry.npmjs.org/chowder/0.0.1/-tag/latest
+186 info trying registry request attempt 1 at 15:15:00
+187 http PUT https://registry.npmjs.org/chowder/0.0.1/-tag/latest
+188 http 201 https://registry.npmjs.org/chowder/0.0.1/-tag/latest
+189 verbose publish attach 2 [ 'chowder',
+189 verbose publish   '/Users/craig/.npm/chowder/0.0.1/package.tgz',
+189 verbose publish   'chowder-0.0.1.tgz' ]
+190 verbose url raw chowder
+191 verbose url resolving [ 'https://registry.npmjs.org/', './chowder' ]
+192 verbose url resolved https://registry.npmjs.org/chowder
+193 info trying registry request attempt 1 at 15:15:01
+194 http GET https://registry.npmjs.org/chowder
+195 http 200 https://registry.npmjs.org/chowder
+196 verbose uploading [ 'chowder/-/chowder-0.0.1.tgz/-rev/28-e13d3e924c39f1da7a0779787a2b10d1',
+196 verbose uploading   '/Users/craig/.npm/chowder/0.0.1/package.tgz' ]
+197 verbose publish attach 3 [ { [Error: ENOENT, stat '/Users/craig/.npm/chowder/0.0.1/package.tgz']
+197 verbose publish     errno: 34,
+197 verbose publish     code: 'ENOENT',
+197 verbose publish     path: '/Users/craig/.npm/chowder/0.0.1/package.tgz' },
+197 verbose publish   'chowder' ]
+198 error Error: ENOENT, stat '/Users/craig/.npm/chowder/0.0.1/package.tgz'
+199 error If you need help, you may report this log at:
+199 error     <http://github.com/isaacs/npm/issues>
+199 error or email it to:
+199 error     <npm-@googlegroups.com>
+200 error System Darwin 12.2.0
+201 error command "node" "/usr/local/bin/npm" "publish" "--force"
+202 error cwd /Users/craig/Developer/Public/chowder
+203 error node -v v0.6.17
+204 error npm -v 1.1.66
+205 error path /Users/craig/.npm/chowder/0.0.1/package.tgz
+206 error code ENOENT
+207 error errno 34
+208 verbose exit [ 34, true ]
